@@ -2,3 +2,5 @@ This package provides scripts to research organisations if they have a gender eq
 
 webcrawler/crawler-prevalence.php : Check whether GEPs are in place.
 webcrawler/crawler.php : Extract the more relative PDF GEPs.
+
+Requires PHP 8.1+
