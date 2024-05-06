@@ -1,0 +1,18 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: inspirequality.eu web-crawler
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - name: INNOSYSTEMS
+    city: Athens
+    country: GR
+    website: 'https://www.innosystems.gr'
+    email: info@innosystems.gr
+repository-code: 'https://github.com/InspireQualityeu/web-crawler'
+url: 'https://www.inspirequality.eu'
+license: CC-BY-NC-SA-4.0
