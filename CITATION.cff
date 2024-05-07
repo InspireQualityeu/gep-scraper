@@ -13,6 +13,12 @@ authors:
     country: GR
     website: 'https://www.innosystems.gr'
     email: info@innosystems.gr
+- name: Mazlum Karataş
+    orcid: 0000-0002-4096-0212
+    affiliation: GESIS - Leibniz-Institute for the Social Sciences
+    city: Cologne
+    country: DE
+    email: mazlum.karatas@gesis.org
 repository-code: 'https://github.com/InspireQualityeu/web-crawler'
 url: 'https://www.inspirequality.eu'
 license: CC-BY-NC-SA-4.0
