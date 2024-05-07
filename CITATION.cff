@@ -13,7 +13,7 @@ authors:
     country: GR
     website: 'https://www.innosystems.gr'
     email: info@innosystems.gr
-- name: Mazlum Karataş
+  - name: Mazlum Karataş
     orcid: 0000-0002-4096-0212
     affiliation: GESIS - Leibniz-Institute for the Social Sciences
     city: Cologne
