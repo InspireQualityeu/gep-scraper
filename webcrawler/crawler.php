@@ -26,14 +26,14 @@ $countries = array(
             'Frauenförderplan',
             'Chancengleichheitsplan',
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'at',
         'google_language' => 'de'
     ),
+	
     //Belgium - France
     'be_f' => array(
-        'title' => 'Belgium - France',
+        'title' => 'Belgium',
         'term_en' => 'gender equality plan',
         'term' => 'Charte pour l’égalité de genre',
         'terms_en' => array(
@@ -49,14 +49,14 @@ $countries = array(
             'plan égalité hommes-femmes',
             'Plan Egalité de Genre',
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'be',
         'google_language' => 'fr'
     ),
+	
     //Belgium - Dutch
     'be_d' => array(
-        'title' => 'Belgium - Dutch',
+        'title' => 'Belgium',
         'term_en' => 'gender equality plan',
         'term' => 'Gender gelijkheids plan',
         'terms_en' => array(
@@ -71,11 +71,11 @@ $countries = array(
             'Gendergelijkheid en diversiteitsplan',
             'Diversiteit, Inclusie en Gender Equality Plan',
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'be',
         'google_language' => 'nl'
     ),
+	
     //Bosnia and Herzegovina
     'ba' => array(
         'title' => 'Bosnia and Herzegovina',
@@ -88,24 +88,30 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            'Plan rodne ravnopravnosti',
-            'Акциони план за родну равноправност',
-            'Gender akcijski plan',
-            'Гендер акциони план',
-            'Akcioni plan za rodnu ravnopravnost',
-            'Akcijski plan za ravnopravnost spolova',
-            'Акциони план родне равноправности',
-            'Povelja o jednakosti žena i muškaraca',
-            'Plan za rodnu ravnopravnost',
-            'Akcioni plan rodne ravnopravnosti',
-            'Rodni akcioni plan',
-            'Povelja za ravnopravnost spolova',
+            array(
+                'Plan rodne ravnopravnosti',
+                'Акциони план за родну равноправност',
+                'Gender akcijski plan',
+                'Гендер акциони план',
+            ),
+            array(
+                'Akcioni plan za rodnu ravnopravnost',
+                'Akcijski plan za ravnopravnost spolova',
+                'Акциони план родне равноправности',
+                'Povelja o jednakosti žena i muškaraca',
+            ),
+            array(
+                'Plan za rodnu ravnopravnost',
+                'Akcioni plan rodne ravnopravnosti',
+                'Rodni akcioni plan',
+                'Povelja za ravnopravnost spolova',
+            ),
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'ba',
         'google_language' => 'bs'
     ),
+	
     //Bulgaria
     'bg' => array(
         'title' => 'Bulgaria',
@@ -118,21 +124,27 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            'План за равнопоставеност между половете',
-            'План за равенство между половете',
-            'План на дейности за осигуряване равнопоставеност на половете',
-            'План за насърчаване равенството между половете',
-            'Харта за равнопоставеност между половете',
-            'Харта за равенството между половете',
-            'План за действие за равнопоставеност между половете',
-            'План за действие за равенство между половете',
-            'План за действие на половете',
+            array(
+                'План за равнопоставеност между половете',
+                'План за равенство между половете',
+                'План на дейности за осигуряване равнопоставеност на половете',
+            ),
+            array(
+                'План за насърчаване равенството между половете',
+                'Харта за равнопоставеност между половете',
+                'Харта за равенството между половете',
+            ),
+            array(
+                'План за действие за равнопоставеност между половете',
+                'План за действие за равенство между половете',
+                'План за действие на половете',
+            ),
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'bg',
         'google_language' => 'bg'
     ),
+	
     //Croatia
     'hr' => array(
         'title' => 'Croatia',
@@ -145,22 +157,28 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            'Akcijski plan za rodnu ravnopravnost',
-            'Plan za ravnopravnost spolova',
-            'Plan rodne ravnopravnosti',
-            'Akcijski plan za ravnopravnost spolova',
-            'Plan ravnopravnosti spolova',
-            'Povelja za ravnopravnost žena i muškaraca',
-            'Povelja o ravnopravnosti spolova',
-            'Povelja za ravnopravnost spolova',
-            'Povelja ravnopravnosti spolova',
-            'Gender akcijski plan',
+            array(
+                'Akcijski plan za rodnu ravnopravnost',
+                'Plan za ravnopravnost spolova',
+                'Plan rodne ravnopravnosti',
+            ),
+            array(
+                'Akcijski plan za ravnopravnost spolova',
+                'Plan ravnopravnosti spolova',
+                'Povelja za ravnopravnost žena i muškaraca',
+            ),
+            array(
+                'Povelja o ravnopravnosti spolova',
+                'Povelja za ravnopravnost spolova',
+                'Povelja ravnopravnosti spolova',
+                'Gender akcijski plan',
+            ),
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'hr',
         'google_language' => 'hr'
     ),
+	
     //Cyprus
     'cy' => array(
         'title' => 'Cyprus',
@@ -179,14 +197,14 @@ $countries = array(
             'Σχέδιο δράσης για την Έμφυλη Ισότητα',
             'Χάρτης για την Ισότητα των φύλων',
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'cy',
         'google_language' => 'el'
     ),
+	
     //Czech Republic
     'cz' => array(
-        'title' => 'Czech Republic',
+        'title' => 'Czechia',
         'term_en' => 'gender equality plan',
         'term' => 'Plán pro rovnost žen a mužů',
         'terms_en' => array(
@@ -196,18 +214,22 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            'Plán pro rovnost žen a mužů',
-            'Gender akční plán',
-            'Akční plán pro rovnost žen a mužů',
-            'Charta rovnosti žen a mužů',
-            'Akční plán pro rovné odměňování žen a mužů',
-            'Akční plán genderové rovnosti',
+            array(
+                'Plán pro rovnost žen a mužů',
+                'Gender akční plán',
+                'Akční plán pro rovnost žen a mužů',
+            ),
+            array(
+                'Charta rovnosti žen a mužů',
+                'Akční plán pro rovné odměňování žen a mužů',
+                'Akční plán genderové rovnosti',
+            ),
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'cz',
         'google_language' => 'cs'
     ),
+	
     //Denmark
     'dk' => array(
         'title' => 'Denmark',
@@ -226,11 +248,11 @@ $countries = array(
             'Action plan for gender equality',
             'Action plan for equality',
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'dk',
         'google_language' => 'da'
     ),
+	
     //Estonia
     'ee' => array(
         'title' => 'Estonia',
@@ -249,11 +271,11 @@ $countries = array(
             'võrdse kohtlemise kava',
             'Soolise võrdõiguslikkuse põhimõtted ja tegevuskava',
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'ee',
         'google_language' => 'et'
     ),
+	
     //Finland
     'fi' => array(
         'title' => 'Finland',
@@ -271,11 +293,11 @@ $countries = array(
             'Tasa-arvo-suunnitelma',
             'Sukupuolten tasa-arvon edistämisen toimintasuunnitelma',
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'fi',
         'google_language' => 'fi'
     ),
+
     //France
     'fr' => array(
         'title' => 'France',
@@ -288,45 +310,23 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            "plan d'action pour l'égalité",
-            "plan d'action sur l'égalité",
-            "Plan d'action égalité femmes hommes",
-            "plan d'égalité",
-            "plan d'action relatifs à l'égalité",
-            "Plan pour l'égalité",
-            "Charte pour l'égalité",
+            array(
+                "plan d'action pour l'égalité",
+                "plan d'action sur l'égalité",
+                "Plan d'action égalité femmes hommes",
+                "plan d'égalité",
+            ),
+            array(
+                "plan d'action relatifs à l'égalité",
+                "Plan pour l'égalité",
+                "Charte pour l'égalité",
+            )
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'fr',
         'google_language' => 'fr'
     ),
-    //Germany
-    'de' => array(
-        'title' => 'Germany',
-        'term_en' => 'gender equality plan',
-        'term' => 'Gleichstellungsplan',
-        'terms_en' => array(
-            'Gender Equality Plan',
-            'Gender Action Plan',
-            'Gender Equality Action Plan',
-            'Gender Equality Charter',
-        ),
-        'terms' => array(
-            'Gleichstellungskonzept',
-            'Gleichstellungsplan',
-            'Frauenförderplan',
-            'Rahmenplan AND Gleichstellung',
-            'Rahmenplan AND Chancengleichheit',
-            'Chancengleichheitsplan',
-            'Gleichstellungsstrategie',
-            'Aktionsplan AND Gleichstellung',
-        ),
-        'domains' => array(
-        ),
-        'google_country' => 'de',
-        'google_language' => 'de'
-    ),
+
     //Greece
     'gr' => array(
         'title' => 'Greece',
@@ -344,11 +344,11 @@ $countries = array(
             'Σχέδιο Δράσης για την Έμφυλη Ισότητα',
             'Σχεδίου Δράσης για την Έμφυλη Ισότητα',
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'gr',
         'google_language' => 'el'
     ),
+	
     //Hungary
     'hu' => array(
         'title' => 'Hungary',
@@ -367,11 +367,11 @@ $countries = array(
             'A nemek közötti egyenlőség cselekvési terve',
             'Nemek közötti egyenlőséget támogató terv',
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'hu',
         'google_language' => 'hu'
     ),
+	
     //Ireland
     'ie' => array(
         'title' => 'Ireland',
@@ -390,11 +390,11 @@ $countries = array(
             'Athena SWAN',
             'Gender equality charter',
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'ie',
         'google_language' => 'en' //'ga'
     ),
+	
     //Israel
     'il' => array(
         'title' => 'Israel',
@@ -413,11 +413,11 @@ $countries = array(
             "תכנית להטמעת שוויון מגדרי",
             "קידום שיוויון מגדרי",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'il',
         'google_language' => 'iw'
     ),
+	
     //Italy
     'it' => array(
         'title' => 'Italy',
@@ -436,11 +436,11 @@ $countries = array(
             "Carta dell’uguaglianza di genere",
             "Piano per l'uguaglianza di Genere",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'it',
         'google_language' => 'it'
     ),
+	
     //Latvia
     'lv' => array(
         'title' => 'Latvia',
@@ -460,11 +460,11 @@ $countries = array(
             "Dzimumu līdztiesības pamatprincipu īstenošanas plāns",
             "Dzimumu līdztiesības harta",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'lv',
         'google_language' => 'lv'
     ),
+	
     //Lithuania
     'lt' => array(
         'title' => 'Lithuania',
@@ -482,11 +482,11 @@ $countries = array(
             "Moterų ir vyrų lygių galimybių veiksmų plano",
             "Lyčių lygybės ir įvairovės politika",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'lt',
         'google_language' => 'lt'
     ),
+	
     //Luxembourg
     'lu' => array(
         'title' => 'Luxembourg',
@@ -508,11 +508,11 @@ $countries = array(
             "Gleichstellungskonzept",
             "Gleichstellungsstrategie",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'lu',
         'google_language' => 'de'
     ),
+	
     //Malta
     'mt' => array(
         'title' => 'Malta',
@@ -530,11 +530,11 @@ $countries = array(
             "Gender Equality Action Plan",
             "Gender equality charter",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'mt',
         'google_language' => 'mt'
     ),
+	
     //Netherlands
     'nl' => array(
         'title' => 'Netherlands',
@@ -552,11 +552,11 @@ $countries = array(
             "Gendergelijkheid en diversiteitsplan",
             "Diversiteit, Inclusie en Gender Equality Plan",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'nl',
         'google_language' => 'nl'
     ),
+	
     //Norway
     'no' => array(
         'title' => 'Norway',
@@ -573,11 +573,11 @@ $countries = array(
             "Handlingsplan for kjønns",
             "Handlingsplan for kjønnsmangfold",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'no',
         'google_language' => 'no'
     ),
+	
     //Poland
     'pl' => array(
         'title' => 'Poland',
@@ -590,23 +590,29 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            "Plan równości płci",
-            "Plan na rzecz równości płci",
-            "Plan równości",
-            "Plan wdrażania polityki równości płci",
-            "Plan równości szans",
-            "Plan na rzecz równych szans",
-            "Plan na rzecz równości kobiet i mężczyzn",
-            "Plan działań na rzecz równości płci",
-            "Plan Równości Szans Płci",
-            "Program działań na rzecz równości płci",
-            "Strategia na rzecz równości płci",
+            array(
+                "Plan równości płci",
+                "Plan na rzecz równości płci",
+                "Plan równości",
+                "Plan wdrażania polityki równości płci",
+                "Plan równości szans",
+            ),
+            array(
+                "Plan na rzecz równych szans",
+                "Plan na rzecz równości kobiet i mężczyzn",
+                "Plan działań na rzecz równości płci",
+                "Plan Równości Szans Płci",
+            ),
+            array(
+                "Program działań na rzecz równości płci",
+                "Strategia na rzecz równości płci",
+            ),
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'pl',
         'google_language' => 'pl'
     ),
+	
     //Portugal
     'pt' => array(
         'title' => 'Portugal',
@@ -619,18 +625,22 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            "Plano para a igualdade de género",
-            "Plano de Ação de Género",
-            "Carta de Princípios para a Igualdade de Género",
-            "Plano de Ação para a Igualdade de Oportunidades",
-            "Estratégia para a Igualdade de Género",
-            "Plano de Ação AND Igualdade de Género",
+            array(
+                "Plano para a igualdade de género",
+                "Plano de Ação de Género",
+                "Carta de Princípios para a Igualdade de Género",
+            ),
+            array(
+                "Plano de Ação para a Igualdade de Oportunidades",
+                "Estratégia para a Igualdade de Género",
+                "Plano de Ação AND Igualdade de Género",
+            ),
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'pt',
         'google_language' => 'pt'
     ),
+	
     //Romania
     'ro' => array(
         'title' => 'Romania',
@@ -648,11 +658,11 @@ $countries = array(
             "Planul de acțiune pentru egalitatea de gen",
             "Carta egalităţii de gen",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'ro',
         'google_language' => 'ro'
     ),
+	
     //Serbia
     'rs' => array(
         'title' => 'Serbia',
@@ -665,26 +675,32 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            "Plan o rodnoj ravnopravnosti",
-            "Акциони план за родну равноправност",
-            "План за постизање родне равноправности",
-            "Акциони план родне равноправности",
-            "План мера за остваривање и унапређење родне равноправности",
-            "Plan mera za ostvarivanje i unapređenje rodne ravnopravnosti",
-            "Akcioni plan za ostvarivanje rodne ravnopravnosti",
-            "План за родну равноправност",
-            "Akcioni plan za rodnu ravnopravnost",
-            "Plan rodne ravnopravnosti",
-            "Родни акциони план",
-            "Evropska povelja o rodnoj ravnopravnosti",
-            "Европска повеља о родној равноправности",
-            "Povelja Atena Svon",
+            array(
+                "Plan o rodnoj ravnopravnosti",
+                "Акциони план за родну равноправност",
+                "План за постизање родне равноправности",
+                "Акциони план родне равноправности",
+                "План мера за остваривање и унапређење родне равноправности",
+            ),
+            array(
+                "Plan mera za ostvarivanje i unapređenje rodne ravnopravnosti",
+                "Akcioni plan za ostvarivanje rodne ravnopravnosti",
+                "План за родну равноправност",
+                "Akcioni plan za rodnu ravnopravnost",
+            ),
+            array(
+                "Plan rodne ravnopravnosti",
+                "Родни акциони план",
+                "Evropska povelja o rodnoj ravnopravnosti",
+                "Европска повеља о родној равноправности",
+                "Povelja Atena Svon",
+            ),
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'rs',
         'google_language' => 'sr'
     ),
+	
     //Slovakia
     'sk' => array(
         'title' => 'Slovakia',
@@ -704,11 +720,11 @@ $countries = array(
             "Stratégia rodovej rovnosti",
             "Stratégia pre rodovú rovnosť",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'sk',
         'google_language' => 'sk'
     ),
+	
     //Slovenia
     'si' => array(
         'title' => 'Slovenia',
@@ -721,40 +737,23 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            "Načrt za enakost spolov",
-            "Akcijski načrt za uveljavljanje enakosti spolov",
-            "Načrt enakosti spolov",
-            "Načrt za uveljavljanje enakosti spolov",
-            "Akcijski načrt za enakost spolov",
-            "Akcijski načrt vzpostavitve enakih možnosti glede na spol",
-            "Listina o enakosti spolov",
+            array(
+                "Načrt za enakost spolov",
+                "Akcijski načrt za uveljavljanje enakosti spolov",
+                "Načrt enakosti spolov",
+                "Načrt za uveljavljanje enakosti spolov",
+                "Akcijski načrt za enakost spolov",
+            ),
+            array(
+                "Akcijski načrt vzpostavitve enakih možnosti glede na spol",
+                "Listina o enakosti spolov",
+            ),
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'si',
         'google_language' => 'sl'
     ),
-    //Spain
-    'es' => array(
-        'title' => 'Spain',
-        'term_en' => 'gender equality plan',
-        'term' => "Plan de igualdad de género",
-        'terms_en' => array(
-            'Gender Equality Plan',
-            'Gender Action Plan',
-            'Gender Equality Action Plan',
-            'Gender Equality Charter',
-        ),
-        'terms' => array(
-            "Plan de igualdad de género",
-            "Plan de acción de género",
-            "Plan para la igualdad entre mujeres y hombres",
-        ),
-        'domains' => array(
-        ),
-        'google_country' => 'es',
-        'google_language' => 'es'
-    ),
+	
     //Sweden
     'se' => array(
         'title' => 'Sweden',
@@ -776,14 +775,14 @@ $countries = array(
             "Handlingsplan för Lika villkor och jämställdhet",
             "jämställdhetsstadgan",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'se',
         'google_language' => 'sv'
     ),
+	
     //Switzerland - French
     'ch_f' => array(
-        'title' => 'Switzerland - French',
+        'title' => 'Switzerland',
         'term_en' => 'gender equality plan',
         'term' => "plan d'action pour l'égalité",
         'terms_en' => array(
@@ -793,22 +792,26 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            "plan d'action pour l'égalité",
-            "plan d'action sur l'égalité",
-            "Plan d'action égalité femmes hommes",
-            "plan d'égalité",
-            "plan d'action relatifs à l'égalité",
-            "Plan pour l'égalité",
-            "Charte pour l'égalité",
+            array(
+                "plan d'action pour l'égalité",
+                "plan d'action sur l'égalité",
+                "Plan d'action égalité femmes hommes",
+                "plan d'égalité",
+            ),
+            array(
+                "plan d'action relatifs à l'égalité",
+                "Plan pour l'égalité",
+                "Charte pour l'égalité",
+            ),
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'ch',
         'google_language' => 'fr'
     ),
+	
     //Switzerland - German
     'ch_g' => array(
-        'title' => 'Switzerland - German',
+        'title' => 'Switzerland',
         'term_en' => 'gender equality plan',
         'term' => "Gleichstellungsplan",
         'terms_en' => array(
@@ -824,14 +827,14 @@ $countries = array(
             "Aktionsplan AND Gleichstellung",
             "Frauenförderplan",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'ch',
         'google_language' => 'de'
     ),
+	
     //Switzerland - Italian
     'ch_i' => array(
-        'title' => 'Switzerland - Italian',
+        'title' => 'Switzerland',
         'term_en' => 'gender equality plan',
         'term' => "Il piano di parità di genere",
         'terms_en' => array(
@@ -847,11 +850,58 @@ $countries = array(
             "Carta dell’uguaglianza di genere",
             "Piano per l'uguaglianza di Genere",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'ch',
         'google_language' => 'it'
     ),
+	
+    //Germany
+    'de' => array(
+        'title' => 'Germany',
+        'term_en' => 'gender equality plan',
+        'term' => 'Gleichstellungsplan',
+        'terms_en' => array(
+            'Gender Equality Plan',
+            'Gender Action Plan',
+            'Gender Equality Action Plan',
+            'Gender Equality Charter',
+        ),
+        'terms' => array(
+            'Gleichstellungskonzept',
+            'Gleichstellungsplan',
+            'Frauenförderplan',
+            'Rahmenplan AND Gleichstellung',
+            'Rahmenplan AND Chancengleichheit',
+            'Chancengleichheitsplan',
+            'Gleichstellungsstrategie',
+            'Aktionsplan AND Gleichstellung',
+        ),
+        'domains' => array(),
+        'google_country' => 'de',
+        'google_language' => 'de'
+    ),
+
+    //Spain
+    'es' => array(
+        'title' => 'Spain',
+        'term_en' => 'gender equality plan',
+        'term' => "Plan de igualdad de género",
+        'terms_en' => array(
+            'Gender Equality Plan',
+            'Gender Action Plan',
+            'Gender Equality Action Plan',
+            'Gender Equality Charter',
+        ),
+        'terms' => array(
+            "Plan de igualdad de género",
+            "Plan de acción de género",
+            "Plan para la igualdad entre mujeres y hombres",
+        ),
+        'domains' => array(),
+        'google_country' => 'es',
+        'google_language' => 'es'
+    ),
+
     //United Kingdom
     'uk' => array(
         'title' => 'United Kingdom',
@@ -864,55 +914,513 @@ $countries = array(
             'Gender Equality Charter',
         ),
         'terms' => array(
-            "Gender Equality Plan",
             "Gender Action Plan",
             "Gender Equality Action Plan",
             "Athena SWAN",
             "Gender equality charter",
         ),
-        'domains' => array(
-        ),
+        'domains' => array(),
         'google_country' => 'uk',
         'google_language' => 'en'
     ),
-
 );
 $results = array();
 $country = $search = '';
 
 $pdf_terms = array(
-    'ee' => array(
-        'Gender Equality Plan',
-        'GEP',
+    'at' => array(
+        'Gleichstellungsplan',
+        'Frauenförderungsplan',
+        'Frauenfoerderungsplan',
+        'Chancengleichheitsplan',
+        'Aktionsplan',
+        'Frauenfoerderplan',
+        'frauenförderplan',
+        'gender equality plan',
+        'GEAP',
         'Action Plan',
+        'GAP',
         'Gender Equality Action Plan',
-        'GEAP'
+        'genderequalityplan',
+    ),
+    'be_f' => array(
+        'paep',
+        'egalite plan',
+        'action egalite',
+        'pae',
+        'actions egalite',
+        'action égalité',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'be_d' => array(
+        'genderplan',
+        'gender plan',
+        'gender gelijkheids plan',
+        'plan genre',
+        'Gendergelijkheid',
+        'Gendergelijkheidsplan',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'ba' => array(
+      'Gender akcioni plan',
+      'gender ap',
+      'plan rodne ravnopravnosti',
+      'LGAP',
+      'AKCIJSKI PLAN',
+      'Akcioni Planovi',
+      'rodnu ravnopravnost',
+      'rodne ravnopravnosti',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'bg' => array(
+      'ravnopostavenost',
+      'План за равнопоставеност на половете',
+      'План за равнопоставеност между половете',
+      'План за равнопоставеност',
+      'Plan ravenstvo',
+      'ravenstvo',
+      'План равнопоставеност',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'hr' => array(
+      'Rodna ravnopravnost',
+      'ravnopravnost spolova',
+      'ravnopravnosti spolova',
+      'rodne ravnopravnosti',
+      'Akcijski plan',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'cy' => array(
+      'ΣΧΕΔΙΟ ΔΡΑΣΗΣ',
+      'ΣΧΕΔΙΟ ΙΣΟΤΗΤΑΣ',
+      'SDIF',
+      'ΣΔΙΦ',
+      'ISDIF',
+      'ΙΣΔΙΦ',
+      'sxedio isotitas filon',
+      'ΕΣΔΙΦ',
+      'sxedio drasis',
+      'ESDIF',
+      'ΣΔΕΙ',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'cz' => array(
+      'Plan rovnosti',
+      'Plán genderové rovnosti',
+      'Plan genderove rovnosti',
+      'AP pro rovnost',
+      'Akční plán',
+      'Akcni plan',
+      'Genderová rovnost',
+      'Genderova rovnost',
+      'Strategie rovnosti',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'dk' => array(
+      'Ligestillingsplan',
+      'Ligestillingshandleplan',
+      'handleplan',
+      'handlingsplan',
+      'ligestilling',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'ee' => array(
+      'soolise vordoiguslikkuse',
+      'Soolise võrdõiguslikkuse',
+      'SVK',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'fi' => array(
+      'Tasa arvosuunnitelma',
+      'Tasa arvosuunnitelmaohje',
+      'tasa arvosuunnitelmien',
+      'yhdenvertaisuussuunnitelma',
+      'TASAARVOSUUNNITELMA',
+      'tasa arvo suunnitelma',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'fr' => array(
+      'paep',
+      'egalite plan',
+      'action egalite',
+      'pae',
+      'actions egalite',
+      'action égalité',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
     ),
     'de' => array(
-        'Gender Equality Plan',
-        'GEP',
-        'Action Plan',
-        'Gender Equality Action Plan',
+      'Gleichstellungsrahmenplan',
+      'Gleichstellungskonzept',
+      'Gleichstellungsplan',
+      'Rahmenplan',
+      'Chancengleichheitsplan',
+      'Aktionsplan',
+      'Frauenfoerderplan',
+      'frauenförderplan',
+        'gender equality plan',
         'GEAP',
-        'Gleichstellungs',
-        'Rahmenplan'
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
     ),
     'ie' => array(
-        'Gender Equality Plan',
-        'GEP',
-        'Action Plan',
-        'Gender Equality Action Plan',
-        'GEAP'
+      'gender equality plan',
+      'GEAP',
+      'Action Plan',
+      'GAP',
+      'Gender Equality Action Plan',
+      'genderequalityplan',
     ),
     'gr' => array(
-        'Gender Equality Plan',
-        'GEP',
-        'Action Plan',
-        'Gender Equality Action Plan',
+      'ΣΧΕΔΙΟ ΔΡΑΣΗΣ',
+      'ΣΧΕΔΙΟ ΙΣΟΤΗΤΑΣ',
+      'SDIF',
+      'ΣΔΙΦ',
+      'ISDIF',
+      'ΙΣΔΙΦ',
+      'sxedio isotitas filon',
+      'ΕΣΔΙΦ',
+      'sxedio drasis',
+      'ESDIF',
+      'ΣΔΕΙ',
+        'gender equality plan',
         'GEAP',
-        'ΣΧΕΔΙΟ ΙΣΟΤΗΤΑΣ',
-        'ΣΧΕΔΙΟ ΔΡΑΣΗΣ'
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
     ),
+    'hu' => array(
+      'Nemek közötti egyenlőségi terv',
+      'Nemek kozotti egyenlosegi terv',
+      'nemek kozotti eselyegyenlosegi',
+      'NemekKozottiEselyegyenlosegiTerv',
+      'Nemi Egyenlőségi Terv',
+      'Nemi Egyenlosegi Terv',
+      'nemi eselyegyenlosegi terv',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'il' => array(
+      'תקינה-מגדרית',
+      'שוויון מגדרי',
+      'תוכנית פעולה בנושא מגדר',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'it' => array(
+      'Piano uguagianza di genere',
+      'Piano per la parita di genere',
+      'piano uguaglianza',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'lv' => array(
+      'Dzimumu lidztiesibas plans',
+      'Dzimumu lidztiesibas plana',
+      'dzimuma līdztiesības',
+      'dzimuma lidztiesibas',
+      'Dzimumu lidztiesibu',
+      'Dzimumulidztiesiba',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'lt' => array(
+      'Lyčių lygybės planas',
+      'lyciu lygybes planas',
+      'Lyčių lygybės',
+      'lyciu lygybes',
+      'lygybes ir ivairoves',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'lu' => array(
+      'Gleichstellungsrahmenplan',
+      'Gleichstellungskonzept',
+      'Gleichstellungsplan',
+      'Rahmenplan',
+      'Chancengleichheitsplan',
+      'Aktionsplan',
+      'Frauenfoerderplan',
+      'frauenförderplan',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'mt' => array(
+      'gender equality plan',
+      'GEAP',
+      'Action Plan',
+      'GAP',
+      'Gender Equality Action Plan',
+      'genderequalityplan',
+    ),
+    'nl' => array(
+      'genderplan',
+      'gender plan',
+      'gender gelijkheids plan',
+      'plan genre',
+      'Gendergelijkheid',
+      'Gendergelijkheidsplan',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'no' => array(
+      'handlingsplan',
+      'likestilling',
+      'Handlingsplan for likestilling',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'pl' => array(
+      'plan rownosci plci',
+      'PRP',
+      'Plan RP',
+      'RP',
+      'rownosci szans',
+      'Plan Równości Płci',
+      'plan rownosci',
+      'rownych szans',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'pt' => array(
+      'PI Género',
+      'PI Genero',
+      'Plano Igualdade',
+      'plano igualdade genero',
+      'PlanoIgualdadeGenero',
+      'PlanoIgualdade',
+      'Igualdad de Género',
+      'Plano para a Igualdade',
+      'Plano',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'ro' => array(
+      'Plan egalitate',
+      'Planul de Egalitate',
+      'Plan pentru egalitatea',
+      'Plan de egalitate',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'rs' => array(
+      'Plan rodne ravnopravnosti',
+      'akcioni plan RR',
+      'rodne ravnopravnosti',
+      'Акциони план за родну равноправност',
+      'LAP',
+      'rodnu ravnopravnost',
+      'LAP PR',
+      'Plan rodna ravnopravnost',
+      'lokalno akcioni plan',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'sk' => array(
+      'Plán rodovej rovnosti',
+      'Plan rodovej rovnosti',
+      'rovnosti zien muzov',
+      'Akčný plán',
+      'Akcny plan',
+      'strategia rovnosti',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'si' => array(
+      'Načrt za enakost spolov',
+      'Nacrt za enakost spolov',
+      'Nacrt enakosti spolov',
+      'NES',
+      'načrt enakosti spolov',
+      'Uveljavljanje enakosti spolov',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'es' => array(
+      'Plan de Igualdad',
+      'La Igualdad de Género',
+      'PLANIGUALDAD',
+      'Plan Igualdad',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'se' => array(
+      'Jamstalldhetsplan',
+      'Jamstalldhetslagen',
+      'jämställdhetsintegrering',
+      'jämställdhetsplan',
+      'handlingsplan',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'ch_f' => array(
+      'paep',
+      'egalite plan',
+      'action egalite',
+      'pae',
+      'actions egalite',
+      'action égalité',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'ch_g' => array(
+      'Gleichstellungsplan',
+      'Rahmenplan',
+      'Chancengleichheitsplan',
+      'Aktionsplan',
+      'Frauenfoerderplan',
+      'frauenförderplan',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'ch_i' => array(
+      'Piano uguagianza di genere',
+      'Piano per la parita di genere',
+      'piano uguaglianza',
+        'gender equality plan',
+        'GEAP',
+        'Action Plan',
+        'GAP',
+        'Gender Equality Action Plan',
+        'genderequalityplan',
+    ),
+    'uk' => array(
+      'gender equality plan',
+      'GEAP',
+      'Action Plan',
+      'GAP',
+      'Gender Equality Action Plan',
+      'genderequalityplan',
+    )
 );
 
 foreach($countries as $key => $value) {
@@ -920,8 +1428,12 @@ foreach($countries as $key => $value) {
     $file = 'serpapi-' . strtoupper($key);
     $file_xlsx = './exports/' . $file . '.xlsx';
     $file_meta_xlsx = './exports/' . $file . '_meta.xlsx';
+    $file_csv = './exports/' . $file . '.csv';
+    $file_meta_csv = './exports/' . $file . '_meta.csv';
+    $file_log = './exports/' . $file . '.log';
     $root_export_dir = './exports/PDFs/' . strtoupper($key) . '/';
     $root_gep_dir = './exports/GEPs/' . strtoupper($key) . '/';
+    $file_requests = './exports/requests-final.txt';
 
     if ( !file_exists( $root_export_dir ) && !is_dir( $root_export_dir ) ) {
         mkdir( $root_export_dir );
@@ -937,7 +1449,13 @@ foreach($countries as $key => $value) {
         ['step', 'link', 'file', 'title', 'author', 'subject', 'keywords']
     ];
 
+    file_put_contents($file_csv, '"step","source","title","link","snippet","snippet_highlighted_words"' . chr(10), FILE_APPEND);
+
+    file_put_contents($file_meta_csv, '"step","link","file","title","author","subject","keywords"' . chr(10), FILE_APPEND);
+
     foreach($countries[$country]['domains'] as $domain) {
+        echo $domain.chr(10);
+
         $gep_found = false;
         $export_dir = $root_export_dir . $domain . '/';
         $gep_dir = $root_gep_dir . $domain . '/';
@@ -971,6 +1489,7 @@ foreach($countries as $key => $value) {
                 )
             );
         }
+        /*
         elseif($key == 'gr' || $key == 'de') {
             $steps = array(
                 '4' => array(
@@ -991,28 +1510,25 @@ foreach($countries as $key => $value) {
                 )
             );
         }
+        */
         else {
             $steps = array(
                 '4' => array(
                     'hl' => 'en',
                     'terms' => $value['term_en']
                 ),
-                /*
                 '3' =>  array(
                     'hl' => $countries[$country]['google_language'],
                     'terms' => $value['term']
                 ),
-                */
                 '2' =>  array(
                     'hl' => 'en',
                     'terms' => $value['terms_en']
                 ),
-                /*
                 '1' =>  array(
                     'hl' => $countries[$country]['google_language'],
                     'terms' => $value['terms']
                 )
-                */
             );
         }
 
@@ -1024,255 +1540,108 @@ foreach($countries as $key => $value) {
         foreach($steps as $step_key => $step_value) {
             if ( ${'go_step_'. $step_key }) {
 
-                $_str = ' ' . query_terms($step_value['terms']);
-                $query = [
-                    'q' => $str . $_str,
-                    'engine' => 'google',
-                    //'google_domain' => 'google.com',
-                    'num' => 10,
-                    'location' => $countries[$country]['title'],
-                    'gl' => $countries[$country]['google_country'],
-                    'hl' => $step_value['hl'],
-                    //"hl" => $countries[$country]['google_language'],
-                    'async' => 'false',
-                ];
+                if (is_array($step_value['terms']) && hasArrayElements($step_value['terms'])) {
+                    foreach ($step_value['terms'] as $terms_value) {
+                        $_str = ' ' . query_terms($terms_value);
+                        $query = [
+                            "q" => $str . $_str,
+                            "engine" => "google",
+                            "num" => 10,
+                            "location" => $countries[$country]['title'],
+                            'gl' => $countries[$country]['google_country'],
+                            'hl' => $step_value['hl'],
+                            "async" => "false",
+                        ];
 
-                $client = new GoogleSearchResults($api_key);
-                $results = $client->get_json($query);
-                $total_results = 0;
-                $files = array( );
+                        $client = new GoogleSearchResults($api_key);
+                        $results = $client->get_json($query);
+                        $total_results = 0;
+                        $files = array();
 
-                if (isset($results->organic_results) && count($results->organic_results) &&
-                    isset($results->search_information->organic_results_state) &&
-                    ($results->search_information->organic_results_state == 'Results for exact spelling')) {
+                        if (isset($results->organic_results) && count($results->organic_results) &&
+                            isset($results->search_information->organic_results_state) &&
+                            ($results->search_information->organic_results_state == 'Results for exact spelling')) {
 
-                    $total_results = isset($results->search_information->total_results) ? $results->search_information->total_results : 0;
+                            $total_results = isset($results->search_information->total_results) ? $results->search_information->total_results : 0;
 
-                    foreach ($results->organic_results as $result) {
-                        $xls[] = [$step_key, $result->source, $result->title, $result->link, (isset($result->snippet) ? $result->snippet : ''), (isset
-                        ($result->snippet_highlighted_words) ? implode("|", $result->snippet_highlighted_words) : '')];
+                            foreach ($results->organic_results as $result) {
+                                //$xls[] = [$step_key, $result->source, $result->title, $result->link, (isset($result->snippet) ? $result->snippet : ''), (isset($result->snippet_highlighted_words) ? implode("|", $result->snippet_highlighted_words) : '')];
 
-                        $files[] = array(
-                            'file' => rawurldecode($result->link),
-                            'step' => $step_key
-                        );
-                    }
-                }
+                                $files[] = array(
+                                    'file' => rawurldecode($result->link),
+                                    'step' => $step_key
+                                );
 
-                if($total_results == 0) {
-                    if (isset($results->organic_results) && count($results->organic_results) &&
-                        isset($results->search_information->organic_results_state) &&
-                        ($results->search_information->organic_results_state == 'Empty showing fixed spelling results')) {
-
-                        $total_results = isset($results->search_information->total_results) ? $results->search_information->total_results : 0;
-
-                        foreach ($results->organic_results as $result) {
-                            $xls[] = [$step_key, $result->source, $result->title, $result->link, (isset($result->snippet) ? $result->snippet : ''), (isset
-                            ($result->snippet_highlighted_words) ? implode("|", $result->snippet_highlighted_words) : '')];
-
-                            $files[] = array(
-                                'file' => rawurldecode($result->link),
-                                'step' => $step_key
-                            );
-                        }
-                    }
-                }
-
-                $url_request = chr(10) . 'https://www.google.com/search?' . http_build_query($query) . ' | ' . $total_results . ' results' . chr(10);
-                $file_requests = './exports/requests.txt';
-
-                file_put_contents($file_requests, $url_request, FILE_APPEND);
-
-                if(is_array($files) && count($files)) {
-                    foreach($files as $file_val) {
-                        $file = $file_val['file'];
-                        if ($rfile = isPdf($file)) {
-                            $filename = '';
-
-                            $parts = parse_url($rfile);
-                            $pathInfo = pathinfo($parts['path']);
-                            $filename = $pathInfo['basename'];
-
-                            // Check if the basename has a PDF extension
-                            if(strtolower(mb_substr($filename, -3, 3)) !== 'pdf' && !empty($filename)) {
-                                $filename .= '.pdf';
+                                file_put_contents($file_csv, '"' . $step_key . '","' . $domain . '","' . $result->title . '","' . $result->link . '","' . (isset($result->snippet) ? $result->snippet : '') . '","' . (isset
+                                    ($result->snippet_highlighted_words) ? implode("|", $result->snippet_highlighted_words) : '') . '"' . chr(10), FILE_APPEND);
                             }
+                        }
 
-                            if(!empty($filename)) {
-                                $filename = time() . '-' . $filename;
+                        if ($total_results == 0) {
+                            if (isset($results->organic_results) && count($results->organic_results) &&
+                                isset($results->search_information->organic_results_state) &&
+                                ($results->search_information->organic_results_state == 'Empty showing fixed spelling results')) {
 
-                                // Initialize cURL session
-                                $ch = curl_init($rfile);
+                                $total_results = isset($results->search_information->total_results) ? $results->search_information->total_results : 0;
 
-                                // Set cURL options
-                                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                                curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-                                curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-                                curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                                foreach ($results->organic_results as $result) {
+                                    //$xls[] = [$step_key, $result->source, $result->title, $result->link, (isset($result->snippet) ? $result->snippet : ''), (isset($result->snippet_highlighted_words) ? implode("|", $result->snippet_highlighted_words) : '')];
 
-                                // Execute cURL session and get the HTML content
-                                $file_content = curl_exec($ch);
+                                    $files[] = array(
+                                        'file' => rawurldecode($result->link),
+                                        'step' => $step_key
+                                    );
 
-                                // Close cURL session
-                                curl_close($ch);
-
-                                if($file_content) {
-                                    if(file_exists($export_dir . urldecode(urldecode($filename)))) {
-                                        $filename = time() . '-' . $filename;
-                                    }
-                                    file_put_contents($export_dir . urldecode(urldecode($filename)), $file_content);
-
-                                    file_put_contents($file_requests, 'success file - ' .  urldecode(urldecode($filename)) . chr(10), FILE_APPEND);
-
-                                    // check filename for terms
-                                    foreach($pdf_terms as $pdf_key_term => $pdf_key_val) {
-                                        if($pdf_key_term == $key) {
-                                            foreach ($pdf_key_val as $term) {
-                                                $_tmp = explode(" ", $term);
-                                                if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($filename)))) {
-                                                    //move file to GEP
-                                                    if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
-                                                        mkdir($gep_dir);
-                                                    }
-                                                    copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
-                                                    $gep_found = true;
-
-                                                    break;
-                                                }
-                                            }
-                                        }
-                                    }
-
-                                    if($gep_found)
-                                        break;
-
-
-                                    // check 1st page for terms with TCPDF/Fpdi
-                                    try {
-                                        $pdf = new TCPDF();
-                                        $fpdi = new \setasign\Fpdi\Tcpdf\Fpdi();
-                                        $pdf->AddPage();
-                                        $pages = $fpdi->setSourceFile($export_dir . urldecode(urldecode($filename)));
-                                        $pageId = $fpdi->importPage(1);
-                                        $fpdi->useTemplate($pageId);
-                                        $pdf_page = $pdf->Output('', 'S');
-
-                                        foreach($pdf_terms as $pdf_key_term => $pdf_key_val) {
-                                            if($pdf_key_term == $key) {
-                                                foreach ($pdf_key_val as $term) {
-                                                    $_tmp = explode(" ", $term);
-                                                    if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($pdf_page)))) {
-                                                        //move file to GEP
-                                                        if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
-                                                            mkdir($gep_dir);
-                                                        }
-                                                        copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
-                                                        $gep_found = true;
-
-                                                        break;
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    } catch (Exception $e) {
-                                        echo chr(10)."Error on reading 1st pdf page: " .  urldecode(urldecode($filename)) . " : " . $e->getMessage();
-                                    }
-
-                                    if($gep_found)
-                                        break;
-
-
-                                    // check 1st page for terms with mutools
-                                    try {
-                                        // Use mutool to extract text from the first page
-                                        $command = "mutool draw -F text -o - \"".$export_dir . urldecode(urldecode($filename))."\" 1";
-                                        $pdf_page = shell_exec($command);
-
-                                        foreach($pdf_terms as $pdf_key_term => $pdf_key_val) {
-                                            if($pdf_key_term == $key) {
-                                                foreach ($pdf_key_val as $term) {
-                                                    $_tmp = explode(" ", $term);
-                                                    if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($pdf_page)))) {
-                                                        //move file to GEP
-                                                        if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
-                                                            mkdir($gep_dir);
-                                                        }
-                                                        copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
-                                                        $gep_found = true;
-
-                                                        break;
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    } catch (Exception $e) {
-                                        echo chr(10)."Error on reading 1st pdf page: " .  urldecode(urldecode($filename)) . " : " . $e->getMessage();
-                                    }
-
-                                    if($gep_found)
-                                        break;
-
-
-                                    $meta_data = getPDFMetaData($export_dir . urldecode(urldecode($filename)));
-                                    array_unshift($meta_data , $file_val['file']);
-                                    array_unshift($meta_data , $file_val['step']);
-                                    $xls_meta[] = $meta_data;
-                                }
-                                else {
-                                    file_put_contents($file_requests, 'error getting - ' . $rfile . chr(10), FILE_APPEND);
+                                    file_put_contents($file_csv, '"' . $step_key . '","' . $domain . '","' . $result->title . '","' . $result->link . '","' . (isset($result->snippet) ? $result->snippet : '') . '","' . (isset
+                                        ($result->snippet_highlighted_words) ? implode("|", $result->snippet_highlighted_words) : '') . '"' . chr(10), FILE_APPEND);
                                 }
                             }
-                            else
-                                file_put_contents($file_requests, 'error parsing - ' . $rfile . chr(10), FILE_APPEND);
                         }
-                        else { //we assume it's a page that includes links to pdfs
-                            file_put_contents($file_requests, 'file not recognised as direct pdf - ' . $file . chr(10), FILE_APPEND);
 
-                            $links = getLinksFromPage($file);
+                        $url_request = chr(10) . 'https://www.google.com/search?' . http_build_query($query) . ' | ' . $total_results . ' results' . chr(10);
+                        file_put_contents($file_requests, $url_request, FILE_APPEND);
 
-                            foreach ($links as $link) {
-                                if($rlink = isPdf($link)) {
+                        file_put_contents($file_log, serialize($results) . chr(10), FILE_APPEND);
+
+                        if (is_array($files) && count($files)) {
+                            foreach ($files as $file_val) {
+                                $file = $file_val['file'];
+                                if ($rfile = isPdf($file)) {
                                     $filename = '';
-                                    $parts = parse_url($rlink);
-                                    // Separate the path and filename
+                                    $parts = parse_url($rfile);
                                     $pathInfo = pathinfo($parts['path']);
-                                    // get only the filename
                                     $filename = $pathInfo['basename'];
 
-                                    // Check if the basename has a PDF extension
-                                    if(strtolower(mb_substr($filename, -3, 3)) !== 'pdf' && !empty($filename)) {
+                                    if (strtolower(mb_substr($filename, -3, 3)) !== 'pdf' && !empty($filename)) {
                                         $filename .= '.pdf';
                                     }
 
-                                    if(!empty($filename)) {
+                                    if (!empty($filename)) {
                                         $filename = time() . '-' . $filename;
 
-                                        // Initialize cURL session
-                                        $ch = curl_init($rlink);
+                                        $ch = curl_init($rfile);
 
-                                        // Set cURL options
                                         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
                                         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
                                         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
                                         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                                        curl_setopt($ch, CURLOPT_TIMEOUT, 60);
 
-                                        // Execute cURL session and get the HTML content
                                         $file_content = curl_exec($ch);
 
-                                        // Close cURL session
                                         curl_close($ch);
 
-                                        if($file_content) {
-                                            if(file_exists($export_dir . urldecode(urldecode($filename)))) {
+                                        if ($file_content) {
+                                            if (file_exists($export_dir . urldecode(urldecode($filename)))) {
                                                 $filename = time() . '-' . $filename;
                                             }
                                             file_put_contents($export_dir . urldecode(urldecode($filename)), $file_content);
 
-                                            file_put_contents($file_requests, 'success file - ' .  urldecode(urldecode($filename)) . chr(10), FILE_APPEND);
+                                            file_put_contents($file_requests, 'success file - ' . urldecode(urldecode($filename)) . chr(10), FILE_APPEND);
 
                                             // check filename for terms
-                                            foreach($pdf_terms as $pdf_key_term => $pdf_key_val) {
-                                                if($pdf_key_term == $key) {
+                                            foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                if ($pdf_key_term == $key) {
                                                     foreach ($pdf_key_val as $term) {
                                                         $_tmp = explode(" ", $term);
                                                         if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($filename)))) {
@@ -1289,8 +1658,9 @@ foreach($countries as $key => $value) {
                                                 }
                                             }
 
-                                            if($gep_found)
+                                            if ($gep_found)
                                                 break;
+
 
                                             // check 1st page for terms with TCPDF/Fpdi
                                             try {
@@ -1302,8 +1672,8 @@ foreach($countries as $key => $value) {
                                                 $fpdi->useTemplate($pageId);
                                                 $pdf_page = $pdf->Output('', 'S');
 
-                                                foreach($pdf_terms as $pdf_key_term => $pdf_key_val) {
-                                                    if($pdf_key_term == $key) {
+                                                foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                    if ($pdf_key_term == $key) {
                                                         foreach ($pdf_key_val as $term) {
                                                             $_tmp = explode(" ", $term);
                                                             if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($pdf_page)))) {
@@ -1320,20 +1690,21 @@ foreach($countries as $key => $value) {
                                                     }
                                                 }
                                             } catch (Exception $e) {
-                                                echo chr(10)."Error on reading 1st pdf page: " .  urldecode(urldecode($filename)) . " : " . $e->getMessage();
+                                                echo chr(10) . "Error on reading 1st pdf page: " . urldecode(urldecode($filename)) . " : " . $e->getMessage();
                                             }
 
-                                            if($gep_found)
+                                            if ($gep_found)
                                                 break;
 
 
-                                            // check 1st page for terms wit mutools
+                                            // check 1st page for terms with mutools
                                             try {
-                                                $command = "mutool draw -F text -o - \"".$export_dir . urldecode(urldecode($filename))."\" 1";
+                                                // Use mutool to extract text from the first page
+                                                $command = "mutool draw -F text -o - \"" . $export_dir . urldecode(urldecode($filename)) . "\" 1";
                                                 $pdf_page = shell_exec($command);
 
-                                                foreach($pdf_terms as $pdf_key_term => $pdf_key_val) {
-                                                    if($pdf_key_term == $key) {
+                                                foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                    if ($pdf_key_term == $key) {
                                                         foreach ($pdf_key_val as $term) {
                                                             $_tmp = explode(" ", $term);
                                                             if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($pdf_page)))) {
@@ -1350,38 +1721,528 @@ foreach($countries as $key => $value) {
                                                     }
                                                 }
                                             } catch (Exception $e) {
-                                                echo chr(10)."Error on reading 1st pdf page: " .  urldecode(urldecode($filename)) . " : " . $e->getMessage();
+                                                echo chr(10) . "Error on reading 1st pdf page: " . urldecode(urldecode($filename)) . " : " . $e->getMessage();
                                             }
 
-                                            if($gep_found)
+                                            if ($gep_found)
                                                 break;
 
+
                                             $meta_data = getPDFMetaData($export_dir . urldecode(urldecode($filename)));
-                                            array_unshift($meta_data , $file_val['file']);
-                                            array_unshift($meta_data , $file_val['step']);
+                                            array_unshift($meta_data, $file_val['file']);
+                                            array_unshift($meta_data, $file_val['step']);
                                             $xls_meta[] = $meta_data;
+
+                                            file_put_contents($file_meta_csv, implode(",", encloseInQuotes($meta_data)) . chr(10), FILE_APPEND);
+                                        } else {
+                                            file_put_contents($file_requests, 'error getting - ' . $rfile . chr(10), FILE_APPEND);
                                         }
-                                        else {
-                                            file_put_contents($file_requests, 'error getting - ' . $rlink . chr(10), FILE_APPEND);
+                                    } else
+                                        file_put_contents($file_requests, 'error parsing - ' . $rfile . chr(10), FILE_APPEND);
+                                } else { //we assume it's a page that includes links to pdfs
+                                    file_put_contents($file_requests, 'file not recognised as direct pdf - ' . $file . chr(10), FILE_APPEND);
+
+                                    //check if redirects to pdf
+                                    $links = getLinksFromPage($file);
+
+                                    foreach ($links as $link) {
+                                        if ($rlink = isPdf($link)) {
+                                            $filename = '';
+                                            $parts = parse_url($rlink);
+                                            $pathInfo = pathinfo($parts['path']);
+                                            $filename = $pathInfo['basename'];
+
+                                            // Check if the basename has a PDF extension
+                                            if (strtolower(mb_substr($filename, -3, 3)) !== 'pdf' && !empty($filename)) {
+                                                $filename .= '.pdf';
+                                            }
+
+                                            if (!empty($filename)) {
+                                                $filename = time() . '-' . $filename;
+
+                                                $ch = curl_init($rlink);
+
+                                                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                                                curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+                                                curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+                                                curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                                                curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+
+                                                $file_content = curl_exec($ch);
+
+                                                curl_close($ch);
+
+                                                if ($file_content) {
+                                                    if (file_exists($export_dir . urldecode(urldecode($filename)))) {
+                                                        $filename = time() . '-' . $filename;
+                                                    }
+                                                    file_put_contents($export_dir . urldecode(urldecode($filename)), $file_content);
+
+                                                    file_put_contents($file_requests, 'success file - ' . urldecode(urldecode($filename)) . chr(10), FILE_APPEND);
+
+                                                    // check filename for terms
+                                                    foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                        if ($pdf_key_term == $key) {
+                                                            foreach ($pdf_key_val as $term) {
+                                                                $_tmp = explode(" ", $term);
+                                                                if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($filename)))) {
+                                                                    //move file to GEP
+                                                                    if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
+                                                                        mkdir($gep_dir);
+                                                                    }
+                                                                    copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
+                                                                    $gep_found = true;
+
+                                                                    break;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    if ($gep_found)
+                                                        break;
+
+                                                    // check 1st page for terms with TCPDF/Fpdi
+                                                    try {
+                                                        $pdf = new TCPDF();
+                                                        $fpdi = new \setasign\Fpdi\Tcpdf\Fpdi();
+                                                        $pdf->AddPage();
+                                                        $pages = $fpdi->setSourceFile($export_dir . urldecode(urldecode($filename)));
+                                                        $pageId = $fpdi->importPage(1);
+                                                        $fpdi->useTemplate($pageId);
+                                                        $pdf_page = $pdf->Output('', 'S');
+
+                                                        foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                            if ($pdf_key_term == $key) {
+                                                                foreach ($pdf_key_val as $term) {
+                                                                    $_tmp = explode(" ", $term);
+                                                                    if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($pdf_page)))) {
+                                                                        //move file to GEP
+                                                                        if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
+                                                                            mkdir($gep_dir);
+                                                                        }
+                                                                        copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
+                                                                        $gep_found = true;
+
+                                                                        break;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    } catch (Exception $e) {
+                                                        echo chr(10) . "Error on reading 1st pdf page: " . urldecode(urldecode($filename)) . " : " . $e->getMessage();
+                                                    }
+
+                                                    if ($gep_found)
+                                                        break;
+
+
+                                                    // check 1st page for terms wit mutools
+                                                    try {
+                                                        $command = "mutool draw -F text -o - \"" . $export_dir . urldecode(urldecode($filename)) . "\" 1";
+                                                        $pdf_page = shell_exec($command);
+
+                                                        foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                            if ($pdf_key_term == $key) {
+                                                                foreach ($pdf_key_val as $term) {
+                                                                    $_tmp = explode(" ", $term);
+                                                                    if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($pdf_page)))) {
+                                                                        //move file to GEP
+                                                                        if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
+                                                                            mkdir($gep_dir);
+                                                                        }
+                                                                        copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
+                                                                        $gep_found = true;
+
+                                                                        break;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    } catch (Exception $e) {
+                                                        echo chr(10) . "Error on reading 1st pdf page: " . urldecode(urldecode($filename)) . " : " . $e->getMessage();
+                                                    }
+
+                                                    if ($gep_found)
+                                                        break;
+
+                                                    $meta_data = getPDFMetaData($export_dir . urldecode(urldecode($filename)));
+                                                    array_unshift($meta_data, $file_val['file']);
+                                                    array_unshift($meta_data, $file_val['step']);
+                                                    $xls_meta[] = $meta_data;
+
+                                                    file_put_contents($file_meta_csv, implode(",", encloseInQuotes($meta_data)) . chr(10), FILE_APPEND);
+                                                } else {
+                                                    file_put_contents($file_requests, 'error getting - ' . $rlink . chr(10), FILE_APPEND);
+                                                }
+                                            } else
+                                                file_put_contents($file_requests, 'error parsing - ' . $rlink . chr(10), FILE_APPEND);
+                                        } else {
+                                            file_put_contents($file_requests, 'link not recognised as pdf - ' . $link . chr(10), FILE_APPEND);
                                         }
+
+                                        if ($gep_found)
+                                            break;
                                     }
-                                    else
-                                        file_put_contents($file_requests, 'error parsing - ' . $rlink . chr(10), FILE_APPEND);
-                                }
-                                else {
-                                    file_put_contents($file_requests, 'link not recognised as pdf - ' . $link . chr(10), FILE_APPEND);
                                 }
 
-                                if($gep_found)
+                                if ($gep_found)
                                     break;
                             }
                         }
-
-                        if($gep_found)
-                            break;
                     }
                 }
+                else {
+                    $_str = ' ' . query_terms($step_value['terms']);
+                    $query = [
+                        'q' => $str . $_str,
+                        'engine' => 'google',
+                        'num' => 10,
+                        'location' => $countries[$country]['title'],
+                        'gl' => $countries[$country]['google_country'],
+                        'hl' => $step_value['hl'],
+                        'async' => 'false',
+                    ];
 
+                    $client = new GoogleSearchResults($api_key);
+                    $results = $client->get_json($query);
+                    $total_results = 0;
+                    $files = array();
+
+                    if (isset($results->organic_results) && count($results->organic_results) &&
+                        isset($results->search_information->organic_results_state) &&
+                        ($results->search_information->organic_results_state == 'Results for exact spelling')) {
+
+                        $total_results = isset($results->search_information->total_results) ? $results->search_information->total_results : 0;
+
+                        foreach ($results->organic_results as $result) {
+                            //$xls[] = [$step_key, $result->source, $result->title, $result->link, (isset($result->snippet) ? $result->snippet : ''), (isset($result->snippet_highlighted_words) ? implode("|", $result->snippet_highlighted_words) : '')];
+
+                            $files[] = array(
+                                'file' => rawurldecode($result->link),
+                                'step' => $step_key
+                            );
+
+                            file_put_contents($file_csv, '"' . $step_key . '","' . $domain . '","' . $result->title . '","' . $result->link . '","' . (isset($result->snippet) ? $result->snippet : '') . '","' . (isset
+                                ($result->snippet_highlighted_words) ? implode("|", $result->snippet_highlighted_words) : '') . '"' . chr(10), FILE_APPEND);
+                        }
+                    }
+
+                    if ($total_results == 0) {
+                        if (isset($results->organic_results) && count($results->organic_results) &&
+                            isset($results->search_information->organic_results_state) &&
+                            ($results->search_information->organic_results_state == 'Empty showing fixed spelling results')) {
+
+                            $total_results = isset($results->search_information->total_results) ? $results->search_information->total_results : 0;
+
+                            foreach ($results->organic_results as $result) {
+                                //$xls[] = [$step_key, $result->source, $result->title, $result->link, (isset($result->snippet) ? $result->snippet : ''), (isset($result->snippet_highlighted_words) ? implode("|", $result->snippet_highlighted_words) : '')];
+
+                                $files[] = array(
+                                    'file' => rawurldecode($result->link),
+                                    'step' => $step_key
+                                );
+
+                                file_put_contents($file_csv, '"' . $step_key . '","' . $domain . '","' . $result->title . '","' . $result->link . '","' . (isset($result->snippet) ? $result->snippet : '') . '","' . (isset
+                                    ($result->snippet_highlighted_words) ? implode("|", $result->snippet_highlighted_words) : '') . '"' . chr(10), FILE_APPEND);
+                            }
+                        }
+                    }
+
+                    $url_request = chr(10) . 'https://www.google.com/search?' . http_build_query($query) . ' | ' . $total_results . ' results' . chr(10);
+                    file_put_contents($file_requests, $url_request, FILE_APPEND);
+
+                    file_put_contents($file_log, serialize($results) . chr(10), FILE_APPEND);
+
+                    if (is_array($files) && count($files)) {
+                        foreach ($files as $file_val) {
+                            $file = $file_val['file'];
+                            if ($rfile = isPdf($file)) {
+                                $filename = '';
+                                $parts = parse_url($rfile);
+                                $pathInfo = pathinfo($parts['path']);
+                                $filename = $pathInfo['basename'];
+
+                                // Check if the basename has a PDF extension
+                                if (strtolower(mb_substr($filename, -3, 3)) !== 'pdf' && !empty($filename)) {
+                                    $filename .= '.pdf';
+                                }
+
+                                if (!empty($filename)) {
+                                    $filename = time() . '-' . $filename;
+
+                                    $ch = curl_init($rfile);
+
+                                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                                    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+                                    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+                                    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                                    curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+
+                                    $file_content = curl_exec($ch);
+
+                                    curl_close($ch);
+
+                                    if ($file_content) {
+                                        if (file_exists($export_dir . urldecode(urldecode($filename)))) {
+                                            $filename = time() . '-' . $filename;
+                                        }
+                                        file_put_contents($export_dir . urldecode(urldecode($filename)), $file_content);
+
+                                        file_put_contents($file_requests, 'success file - ' . urldecode(urldecode($filename)) . chr(10), FILE_APPEND);
+
+                                        // check filename for terms
+                                        foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                            if ($pdf_key_term == $key) {
+                                                foreach ($pdf_key_val as $term) {
+                                                    $_tmp = explode(" ", $term);
+                                                    if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($filename)))) {
+                                                        //move file to GEP
+                                                        if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
+                                                            mkdir($gep_dir);
+                                                        }
+                                                        copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
+                                                        $gep_found = true;
+
+                                                        break;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        if ($gep_found)
+                                            break;
+
+
+                                        // check 1st page for terms with TCPDF/Fpdi
+                                        try {
+                                            $pdf = new TCPDF();
+                                            $fpdi = new \setasign\Fpdi\Tcpdf\Fpdi();
+                                            $pdf->AddPage();
+                                            $pages = $fpdi->setSourceFile($export_dir . urldecode(urldecode($filename)));
+                                            $pageId = $fpdi->importPage(1);
+                                            $fpdi->useTemplate($pageId);
+                                            $pdf_page = $pdf->Output('', 'S');
+
+                                            foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                if ($pdf_key_term == $key) {
+                                                    foreach ($pdf_key_val as $term) {
+                                                        $_tmp = explode(" ", $term);
+                                                        if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($pdf_page)))) {
+                                                            //move file to GEP
+                                                            if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
+                                                                mkdir($gep_dir);
+                                                            }
+                                                            copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
+                                                            $gep_found = true;
+
+                                                            break;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        } catch (Exception $e) {
+                                            echo chr(10) . "Error on reading 1st pdf page: " . urldecode(urldecode($filename)) . " : " . $e->getMessage();
+                                        }
+
+                                        if ($gep_found)
+                                            break;
+
+
+                                        // check 1st page for terms with mutools
+                                        try {
+                                            // Use mutool to extract text from the first page
+                                            $command = "mutool draw -F text -o - \"" . $export_dir . urldecode(urldecode($filename)) . "\" 1";
+                                            $pdf_page = shell_exec($command);
+
+                                            foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                if ($pdf_key_term == $key) {
+                                                    foreach ($pdf_key_val as $term) {
+                                                        $_tmp = explode(" ", $term);
+                                                        if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($pdf_page)))) {
+                                                            //move file to GEP
+                                                            if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
+                                                                mkdir($gep_dir);
+                                                            }
+                                                            copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
+                                                            $gep_found = true;
+
+                                                            break;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        } catch (Exception $e) {
+                                            echo chr(10) . "Error on reading 1st pdf page: " . urldecode(urldecode($filename)) . " : " . $e->getMessage();
+                                        }
+
+                                        if ($gep_found)
+                                            break;
+
+
+                                        $meta_data = getPDFMetaData($export_dir . urldecode(urldecode($filename)));
+                                        array_unshift($meta_data, $file_val['file']);
+                                        array_unshift($meta_data, $file_val['step']);
+                                        $xls_meta[] = $meta_data;
+
+                                        file_put_contents($file_meta_csv, implode(",", encloseInQuotes($meta_data)) . chr(10), FILE_APPEND);
+                                    } else {
+                                        file_put_contents($file_requests, 'error getting - ' . $rfile . chr(10), FILE_APPEND);
+                                    }
+                                } else
+                                    file_put_contents($file_requests, 'error parsing - ' . $rfile . chr(10), FILE_APPEND);
+                            } else { //we assume it's a page that includes links to pdfs
+                                file_put_contents($file_requests, 'file not recognised as direct pdf - ' . $file . chr(10), FILE_APPEND);
+
+                                //check if redirects to pdf
+                                $links = getLinksFromPage($file);
+
+                                foreach ($links as $link) {
+                                    if ($rlink = isPdf($link)) {
+                                        $filename = '';
+                                        $parts = parse_url($rlink);
+                                        $pathInfo = pathinfo($parts['path']);
+                                        $filename = $pathInfo['basename'];
+
+                                        // Check if the basename has a PDF extension
+                                        if (strtolower(mb_substr($filename, -3, 3)) !== 'pdf' && !empty($filename)) {
+                                            $filename .= '.pdf';
+                                        }
+
+                                        if (!empty($filename)) {
+                                            $filename = time() . '-' . $filename;
+
+                                            $ch = curl_init($rlink);
+
+                                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                                            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+                                            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+                                            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                                            curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+
+                                            $file_content = curl_exec($ch);
+
+                                            curl_close($ch);
+
+                                            if ($file_content) {
+                                                if (file_exists($export_dir . urldecode(urldecode($filename)))) {
+                                                    $filename = time() . '-' . $filename;
+                                                }
+                                                file_put_contents($export_dir . urldecode(urldecode($filename)), $file_content);
+
+                                                file_put_contents($file_requests, 'success file - ' . urldecode(urldecode($filename)) . chr(10), FILE_APPEND);
+
+                                                // check filename for terms
+                                                foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                    if ($pdf_key_term == $key) {
+                                                        foreach ($pdf_key_val as $term) {
+                                                            $_tmp = explode(" ", $term);
+                                                            if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($filename)))) {
+                                                                //move file to GEP
+                                                                if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
+                                                                    mkdir($gep_dir);
+                                                                }
+                                                                copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
+                                                                $gep_found = true;
+
+                                                                break;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+
+                                                if ($gep_found)
+                                                    break;
+
+                                                // check 1st page for terms with TCPDF/Fpdi
+                                                try {
+                                                    $pdf = new TCPDF();
+                                                    $fpdi = new \setasign\Fpdi\Tcpdf\Fpdi();
+                                                    $pdf->AddPage();
+                                                    $pages = $fpdi->setSourceFile($export_dir . urldecode(urldecode($filename)));
+                                                    $pageId = $fpdi->importPage(1);
+                                                    $fpdi->useTemplate($pageId);
+                                                    $pdf_page = $pdf->Output('', 'S');
+
+                                                    foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                        if ($pdf_key_term == $key) {
+                                                            foreach ($pdf_key_val as $term) {
+                                                                $_tmp = explode(" ", $term);
+                                                                if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($pdf_page)))) {
+                                                                    //move file to GEP
+                                                                    if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
+                                                                        mkdir($gep_dir);
+                                                                    }
+                                                                    copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
+                                                                    $gep_found = true;
+
+                                                                    break;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                } catch (Exception $e) {
+                                                    echo chr(10) . "Error on reading 1st pdf page: " . urldecode(urldecode($filename)) . " : " . $e->getMessage();
+                                                }
+
+                                                if ($gep_found)
+                                                    break;
+
+
+                                                // check 1st page for terms wit mutools
+                                                try {
+                                                    $command = "mutool draw -F text -o - \"" . $export_dir . urldecode(urldecode($filename)) . "\" 1";
+                                                    $pdf_page = shell_exec($command);
+
+                                                    foreach ($pdf_terms as $pdf_key_term => $pdf_key_val) {
+                                                        if ($pdf_key_term == $key) {
+                                                            foreach ($pdf_key_val as $term) {
+                                                                $_tmp = explode(" ", $term);
+                                                                if (preg_match("/(.*)" . implode("(.*)", $_tmp) . "(.*)/i", urldecode(urldecode($pdf_page)))) {
+                                                                    //move file to GEP
+                                                                    if (!file_exists($gep_dir) && !is_dir($gep_dir)) {
+                                                                        mkdir($gep_dir);
+                                                                    }
+                                                                    copy($export_dir . urldecode(urldecode($filename)), $gep_dir . urldecode(urldecode($filename)));
+                                                                    $gep_found = true;
+
+                                                                    break;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                } catch (Exception $e) {
+                                                    echo chr(10) . "Error on reading 1st pdf page: " . urldecode(urldecode($filename)) . " : " . $e->getMessage();
+                                                }
+
+                                                if ($gep_found)
+                                                    break;
+
+                                                $meta_data = getPDFMetaData($export_dir . urldecode(urldecode($filename)));
+                                                array_unshift($meta_data, $file_val['file']);
+                                                array_unshift($meta_data, $file_val['step']);
+                                                $xls_meta[] = $meta_data;
+
+                                                file_put_contents($file_meta_csv, implode(",", encloseInQuotes($meta_data)) . chr(10), FILE_APPEND);
+                                            } else {
+                                                file_put_contents($file_requests, 'error getting - ' . $rlink . chr(10), FILE_APPEND);
+                                            }
+                                        } else
+                                            file_put_contents($file_requests, 'error parsing - ' . $rlink . chr(10), FILE_APPEND);
+                                    } else {
+                                        file_put_contents($file_requests, 'link not recognised as pdf - ' . $link . chr(10), FILE_APPEND);
+                                    }
+
+                                    if ($gep_found)
+                                        break;
+                                }
+                            }
+
+                            if ($gep_found)
+                                break;
+                        }
+                    }
+                }
             }
 
             if($gep_found)
@@ -1389,7 +2250,7 @@ foreach($countries as $key => $value) {
         }
 
     }
-
+/*
     $spreadsheet = new Spreadsheet();
     $activeWorksheet = $spreadsheet->getActiveSheet();
     $activeWorksheet->fromArray($xls);
@@ -1402,6 +2263,7 @@ foreach($countries as $key => $value) {
     $activeWorksheet->fromArray($xls_meta);
     $writer = new Xlsx($spreadsheet);
     $writer->save($file_meta_xlsx);
+    */
 }
 
 function query_terms($terms) {
@@ -1461,6 +2323,7 @@ function isPdf($url) {
     curl_setopt($ch, CURLOPT_HEADER, true); // Include headers in the response
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 60);
 
     // Execute cURL session and get the response
     $response = curl_exec($ch);
@@ -1516,6 +2379,7 @@ function getLinksFromPage($url) {
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 60);
 
     // Execute cURL session and get the HTML content
     $html = curl_exec($ch);
@@ -1577,4 +2441,20 @@ function getPDFMetaData($url) {
         echo chr(10)."Error on file: " . $url . " : " . $e->getMessage();
         return [$url, '', '', '', ''];
     }
+}
+
+function encloseInQuotes($array) {
+    foreach ($array as &$value) {
+        $value = '"' . $value . '"';
+    }
+    return $array;
+}
+
+function hasArrayElements($array) {
+    foreach ($array as $element) {
+        if (is_array($element)) {
+            return true; // Found an array element
+        }
+    }
+    return false; // No array elements found
 }
